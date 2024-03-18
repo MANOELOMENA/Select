@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Personagens</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Seleção de Personagens</h1>
+        <div class="characters">
+            <div class="character" onclick="selectCharacter('character1')">
+                Personagem 1
+                <img src="character1.png" alt="Personagem 1" class="character-image">
+            </div>
+            <div class="character" onclick="selectCharacter('character2')">
+                Personagem 2
+                <img src="character2.png" alt="Personagem 2" class="character-image">
+            </div>
+            <div class="character" onclick="selectCharacter('character3')">
+                Personagem 3
+                <img src="character3.png" alt="Personagem 3" class="character-image">
+            </div>
+            <!-- Adicione mais personagens conforme necessário -->
+        </div>
+        <div id="selectedCharacter">
+            <h2>Personagem Selecionado</h2>
+            <div id="selectedCharacterImage"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
